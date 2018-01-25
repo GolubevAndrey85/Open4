@@ -137,7 +137,8 @@
 	</dependencies>
 
 	<build>
-		<finalName>SpringSecurity</finalName>
+		<sourceDirectory>src/main/java</sourceDirectory>
+		<finalName>ROOT</finalName>
 		<plugins>
 
 			<plugin>
@@ -156,7 +157,7 @@
 				<version>2.4</version>
 				<configuration>
 					<warSourceDirectory>src/main/webapp</warSourceDirectory>
-					<warName>SpringSecurityHibernateAnnotationExample</warName>
+					<!--warName>SpringSecurityHibernateAnnotationExample</warName-->
 					<failOnMissingWebXml>false</failOnMissingWebXml>
 				</configuration>
 			</plugin>
