@@ -52,11 +52,10 @@
 
 
 </dependencies>
-
     <build>
+
         <sourceDirectory>src</sourceDirectory>
         <finalName>ROOT</finalName>
-
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
