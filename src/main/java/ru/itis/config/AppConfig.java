@@ -43,7 +43,8 @@ public class AppConfig {
 		
 		BasicDataSource ds = new BasicDataSource();
 	    ds.setDriverClassName("com.mysql.jdbc.Driver");
-		ds.setUrl("jdbc:mysql://localhost:3306/userdata");
+		//ds.setUrl("jdbc:mysql://localhost:3306/userdata");
+        ds.setUrl("mysql://mysql:3306/userdata");
 		ds.setUsername("root");
 		ds.setPassword("root");
 		return ds;
