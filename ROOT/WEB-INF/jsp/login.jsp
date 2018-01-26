@@ -18,7 +18,7 @@
 <div>
     <c:forEach var="usr" items="${someAttribute2}">
     <tr>
-        <td width="160px"><c:out value="${usr}/n"/></td>
+        <td width="160px"><c:out value="${usr}"/></td>
     </tr>
 </c:forEach>
 </div>
