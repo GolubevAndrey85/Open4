@@ -11,6 +11,7 @@
     <title>Login</title>
 </head>
 <body>
+<h1>${someAttribute}</h1>
 <div>HI!</div>
 </body>
 </html>
