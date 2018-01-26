@@ -17,7 +17,7 @@ import java.sql.*;
 //@RequestMapping("/")
 public class IndexController {
 
-    private static final String url = "mysql://mysql:3306/footbalPlayers";
+    private static final String url = "jdbc:mysql://mysql:3306/footbalPlayers";
     private static final String user = "root";
     private static final String password = "root";
 
