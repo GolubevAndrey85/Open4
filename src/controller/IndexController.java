@@ -9,12 +9,19 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
 //@RequestMapping("/hello")
-@RequestMapping("/")
+//@RequestMapping("/")
 public class IndexController {
 @RequestMapping(method = RequestMethod.GET)
-    //@GetMapping("/")
+    @GetMapping("/")
     public String index(Model m) {
         m.addAttribute("someAttribute", "someValue");
         return "index";
     }
+    @RequestMapping(method = RequestMethod.POST)
+    @GetMapping("/login")
+    public String login(Model m) {
+        m.addAttribute("someAttribute", "someValue");
+        return "login";
+    }
+
 }
