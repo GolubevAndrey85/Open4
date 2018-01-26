@@ -15,17 +15,22 @@
 <div>HI!</div>
 
 <form name='loginForm'
-      action="<c:url value='/login' />" method='POST'>
+      action="/login" method='POST'>
     <table>
         <tr>
             <td>User:</td>
             <td><input type='text' name='username'></td>
         </tr>
-            <td colspan='2'><input name="submit" type="submit"
-                                   value="submit" /></td>
+            <td colspan='2'><input name="showPlayeInfo" type="submit"
+                                   value="show player info" /></td>
 
     </table>
 
+</form>
+
+<form name='newMatch' action="/newMatch" method='POST'>
+    <input name="createNewMatch" type="submit"
+           value="create new match" />
 </form>
 </body>
 </html>
